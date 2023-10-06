@@ -1,0 +1,19 @@
+%ToolConfig_tools = (
+                      'OTHER' => {
+                                   'IMPORTS' => [
+                                                  '&get_tool_path(baseline_master)/GeneralVars.pm',
+                                                  '&get_tool_path(baseline_master)/Baseline_ToolData.pm',
+                                                  '&get_tool_path(baseline_master)/MAT_ToolData.pm',
+                                                  '&get_tool_path(tsa)/cfg/CommonTSAdata.pm',
+                                                  '&get_tool_path(tsa)/cfg/CommonFEBEdata_p1222.pm',
+                                                  '&get_tool_path(tsa)/cfg/CommonToolOVR.pm',
+                                                  '&get_tool_path(tsa)/cfg/CommonToolOVR_m1713.pm',
+                                                  '&get_tool_path(tsa)/cfg/CommonToolOVR_m1713plus.pm',
+                                                  '/nfs/fm/disks/w.mroha.101/dts_cds_fedv-tsa/dev/tests/TSA_shell_tests/test_sbx/cfg/LocalToolData.pm',
+                                                  '/nfs/fm/disks/w.mroha.101/dts_cds_fedv-tsa/dev/tests/TSA_shell_tests/test_sbx/cfg/LocalToolData_p1222.pm',
+                                                  '&get_tool_path(tsa)/cfg/FinalSnapshot.pm'
+                                                ]
+                                 },
+                      'VERSION' => '1.02.08',
+                      'PATH' => '/p/hdk/rtl/proj_tools/onecfg/master/&get_tool_version()'
+                    );
